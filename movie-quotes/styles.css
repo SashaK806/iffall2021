@@ -1,0 +1,36 @@
+:root { /*delete later*/
+    --color1: #282B2B;
+    --color2: #59D4BA;
+    --color3:#6EEBB6;
+    --color4: #59D485;
+    --color5: #67F67C;
+}
+
+/*
+monstrous text, ex. there is no dana only zuhl
+person speaking lines
+
+*/
+
+body {
+    background-color: #282B2B;
+    color: #6EEBB6;
+    font-family: helvetica, sans-serif;
+    margin: 4% 10% 4% 10%;
+}
+
+header {
+    font-family: serif;
+    color: #59D4BA;
+    padding-bottom: 1.5%;
+}
+
+blockquote {
+    margin-left: 0%;
+    margin-bottom: 4%;
+    margin-right: 0%;
+}
+
+#quote2 {
+    text-align: right;
+}
