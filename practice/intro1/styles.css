@@ -1,0 +1,17 @@
+p {
+    color: red;
+}
+
+.intro {
+    font-size: 125%;
+}
+
+.first {
+    font-style: italic;
+}
+
+#special {
+    font-weight: bold;
+}
+
+/*browser also applies default rules, user stylesheet*/

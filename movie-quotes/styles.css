@@ -1,9 +1,11 @@
+@font-face {
+    font-family: "Ghostbusters";
+    src: url("GHOSTBUS.TTF")
+}
+
 :root { /*delete later*/
-    --color1: #282B2B;
-    --color2: #59D4BA;
-    --color3:#6EEBB6;
-    --color4: #59D485;
-    --color5: #67F67C;
+    --color1: #30272E;
+
 }
 
 /*
@@ -13,22 +15,43 @@ person speaking lines
 */
 
 body {
-    background-color: #282B2B;
-    color: #6EEBB6;
-    font-family: helvetica, sans-serif;
-    margin: 4% 10% 4% 10%;
+    background-color: #30272E;
+    color: #f9fff6;
+    font-family: serif;
 }
 
-header {
-    font-family: serif;
-    color: #59D4BA;
-    padding-bottom: 1.5%;
+h1, h2 {
+    font-family: "Ghostbusters", serif;
+    color: #EB5A70;
+    font-size: 500%;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+h2 {
+    font-size: 300%;
+    padding: 4% 0% 2% 0%;
+}
+
+#eyecatcher {
+    width: 98vw;
+    margin-left: 0;
+    padding-top: 0;
 }
 
 blockquote {
-    margin-left: 0%;
-    margin-bottom: 4%;
-    margin-right: 0%;
+    margin-left: 10%;
+    margin-bottom: 8%;
+    margin-right: 10%;
+    font-size: 125%;
+    line-height: 175%;
+}
+
+.emphasize {
+    font-family: "Ghostbusters";
+    color: #EB5A70;
+    margin: 1.5% 0 0 0;
 }
 
 #quote2 {
