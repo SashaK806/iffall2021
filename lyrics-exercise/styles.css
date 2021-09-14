@@ -1,26 +1,86 @@
+@font-face {
+    font-family: "Typewriter Header";
+    src: url("HAMMK___.TTF");
+}
+
+@font-face {
+    font-family: "Typewriter";
+    src: url("TravelingTypewriter.ttf");
+}
+
 body {
     background-color: rgb(15, 15, 15);
     color: white;
-    font-size: 350%;
+    font-size: 300%;
+    font-family: "Typewriter";
+    height: 100vh;
+    padding: 0 0 0 0;
+    width: 100%;
 }
 
-.og {
-   
+main {
+    top: 1px;
+    bottom: 1px;
+    width: 100%;
+}
+
+header {
+    position: relative;
+    font-family: "Typewriter Header", serif;
+    text-align: center;
+    margin:auto;
+    width:50%;
+    font-size: 200%;
+    z-index: 4;
+    color: rgb(15, 15, 15);
+}
+
+.img-wrapper { 
+    position: relative;
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    margin: 0 0 0 0;
+    z-index: 1;
+}
+
+.img-wrapper div { 
+    position: relative;
+    grid-column: 1;
+    grid-row: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:rgb(15, 15, 15); 
+    transition: opacity 0.005s;
+    margin: 0 0 0 0;
+    z-index: 1;
+}
+
+.fadeImg {
+    position: relative;
+    background-image: url("https://i.pinimg.com/564x/e1/8c/ce/e18cce2ff70d93450d0e32f9ae89ebb1.jpg");
+    margin: 0 0 0 0;
+    z-index: 1;
 }
 
 p {
+    position: relative;
     text-align: center;
     padding: 2% 2% 10% 2%;
+    z-index: 4;
 }
 
-background1 {
-    margin: auto;
-    width: 90%;
+#block1 {
+    padding-top: 8%;
 }
 
-
-background2{
+#block6 {
+    color: rgb(15, 15, 15);
 }
 
-background3{
+.transformed {
+    color:rgb(15, 15, 15);
 }
+
