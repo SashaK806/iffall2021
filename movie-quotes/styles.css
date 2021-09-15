@@ -3,16 +3,10 @@
     src: url("GHOSTBUS.TTF")
 }
 
-:root { /*delete later*/
+:root { 
     --color1: #30272E;
 
 }
-
-/*
-monstrous text, ex. there is no dana only zuhl
-person speaking lines
-
-*/
 
 body {
     background-color: #30272E;
