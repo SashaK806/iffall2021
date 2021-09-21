@@ -14,7 +14,7 @@ html {
     letter-spacing: -0.02em;
     text-transform: capitalize;
     text-indent: -1rem;
-    font-family: 'vista-slab', serif; /*not working yet*/
+    font-family: 'vista-slab', serif; 
     font-weight: 700;
 
   }

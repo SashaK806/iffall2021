@@ -1,0 +1,96 @@
+body {
+    margin: 15% 15% 15% 30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.content div {
+    margin-bottom: 10%;
+}
+
+#introduction {
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+
+h1 {
+    font-family: "Bellota", cursive;
+    font-weight: 800;
+    font-size: 5rem;
+    text-indent: -0.75rem;
+    color:rosybrown;
+}
+
+h2 {
+    color:rosybrown;
+    font-size: 2rem;
+}
+
+.content p {
+    font-family: 'Bellota', cursive;
+    font-size: 1.25rem;
+}
+
+label {
+    color:rosybrown;
+    font-weight: 200;
+}
+
+/* #fw1 {
+
+} */
+
+#fw2 {
+    font-weight: 200;
+}
+
+#fw3 {
+    font-weight: 700;
+}
+
+/* #fs1 {
+    
+} */
+
+#fs2 {
+    font-style: italic;
+}
+
+/* #ls1 {
+    
+} */
+
+#ls2 {
+    letter-spacing: .1em;
+}
+
+#ls3 {
+    letter-spacing: -.1em;
+}
+
+/* #tt1 {
+
+} */
+
+#tt2 {
+    text-transform: uppercase;
+}
+
+#tt3 {
+    text-transform: capitalize;
+}
+
+/* #td1 {
+    
+} */
+
+#td2 {
+    text-decoration: underline;
+}
+
+#td3 {
+    text-decoration: line-through;
+}
+
+
+
