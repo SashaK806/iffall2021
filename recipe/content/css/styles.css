@@ -1,0 +1,48 @@
+body {
+    margin: 10%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p, ul {
+    line-height: 150%;
+}
+
+h1, h2, h3 {
+    color:  rgb(109, 93, 122);
+    font-size: 6vw;
+}
+
+header {
+    font-size: 8vw;
+}
+
+h3 {
+    margin-top: 7%;
+    font-size: 4vw;
+    /* width: 60%; */
+}
+
+h2 {
+    font-size: 6vw;
+    margin-top: 12%;
+}
+
+a {
+    text-decoration: none;
+    color: lightsteelblue;
+    font-size: 4vw;
+}
+
+a:hover {
+    color: rgb(109, 93, 122);
+}
+
+img {
+    height: 30vh;
+    width: auto;
+    padding-right: 1%;
+}
+
+#emph {
+    font-weight: bold;
+}
