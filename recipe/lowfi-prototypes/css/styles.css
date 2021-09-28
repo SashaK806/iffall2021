@@ -1,0 +1,30 @@
+html{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 2vw 0 2vw;
+}
+
+h1 {
+    color: rgb(109, 93, 122)
+}
+
+div {
+    width: 30vw;
+    position: absolute;
+}
+
+#col2 {
+    margin-left: 32vw;
+}
+
+#col3 {
+    margin-left: 64vw;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    line-height: 1.2;
+    list-style-position: outside;
+}
