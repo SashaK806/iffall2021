@@ -19,6 +19,10 @@ img {
     width: 100%;
 }
 
+img.mobile {
+    width: 60%;
+}
+
 h1 {
     width: 50%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -31,5 +35,5 @@ h1 {
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(77, 77, 77);
-    font-size: 1.2rem;
+    font-size: 0.5rem;
 }
