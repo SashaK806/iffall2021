@@ -1,0 +1,220 @@
+@font-face {
+    font-family: "Grotesk Bold";
+    src: url("../fonts/NeueHaasDisplayMediu.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Grotesk";
+    src: url("../fonts/NeueHaasDisplayRoman.woff") format("woff");
+}
+
+html {
+    font-family: "Grotesk", Verdana, sans-serif;
+}
+
+body {
+    margin: 0 0 0 0;
+}
+
+/*other color hex: #E3EDFF*/
+
+header {
+    background-color: #9798c0;
+    color: white;
+}
+
+h1, h2, h3{
+    text-transform: uppercase;
+}
+
+h1 {
+    margin: 0 0 0 0;
+    font-size: 6vw;
+}
+
+h2 {
+    background-color: #9798c0;
+    color: white;
+    font-size: 5vw;
+    padding: 3vw;
+}
+
+h3 {
+    text-align: right;
+    font-size: 2vw;
+}
+
+.intro {
+    margin-bottom: 10vw;
+}
+
+.intro img {
+    width: 60%;
+    padding: 2.5vw 3vw 3vw 3vw;
+    float: left;
+    margin-bottom: 6vh;
+}
+
+.intro p{
+    color: #9798c0;
+    font-family: "Grotesk Bold";
+    font-size: 4vw;
+    /* margin: 0 0 40vw 0; */
+}
+
+.ingredients ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 3vw;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration:line-through;
+    color: gray;
+}
+
+a:visited {
+    text-decoration:line-through;
+    color: gray;
+}
+
+.ingredients .col {
+    width: 50%;
+}
+
+.ingredients li:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.instructions p{
+    font-size: 3vw;
+    padding: 3vw;
+    margin: 0 0 0 0;
+}
+
+.instructions h2 {
+    background-color: #bdbee6;
+    margin: 0 0 0 0;
+}
+
+.instructions {
+    margin-bottom: 5vw;
+}
+
+footer {
+    height: 3vw;
+    background-color:#bdbee6;
+    margin-bottom: 0;
+}
+
+@media (min-width: 640px) {
+    .instructions {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 2.5vw;
+        width: 58vw;
+        /* float: right; */
+    }
+    .instructions > div {
+        width: 44%;
+        margin: 0 1vw 0 1.5vw;
+    }
+    .instructions p, .ingredients li {
+        font-size: 1.5vw;
+    }
+
+    .instructions p {
+        width: 100%;
+        padding: 2vw 0 3vw 0;
+    }
+
+    h1 {
+        font-size: 4vw;
+        float: left;
+        padding: 1vw;
+    }
+    h2 {
+        font-size: 2vw;
+        padding: 2vw;
+    }
+
+    h3 {
+        margin: 0;
+    }
+
+    #servings {
+        padding:1vw;
+    }
+    .intro img {
+        width: 36vw;
+        margin-bottom: 0vh;
+        float: none;
+        padding-bottom: 1vh;
+    }
+    .intro p {
+        font-size: 2vw;
+        width: 36vw;
+        margin-left: 4vw;
+    }
+    .intro {
+        width: 38vw;
+        float: left;
+        margin-bottom: 0;
+        /* position: absolute; */
+    }
+    .ingredients {
+        width: 36vw;
+        float: left;
+        margin-left: 3vw;
+        clear: left;
+        /* margin-top: 450px; */
+        /* position: relative; */
+        /* margin-top: 38vh; */
+    }
+
+    .ingredients ul {
+        width: 100%;
+        padding: 0vw 0 3vw 0;
+    }
+    /* .ingredients h2 {
+        margin-top: 50vh;
+    } */
+}
+
+@media(min-width: 900px) {
+    h1 {
+        font-size: 3vw;
+
+    }
+
+    h2 {
+        font-size: 1.5vw;
+        padding: 1vw;
+    }
+
+    h3 {font-size: 1.25vw;}
+
+    .intro p {
+        font-size: 1.5vw;
+        width: 36vw;
+    }
+
+    .ingredients li, .instructions p{
+        font-size: 1.25vw;
+    }
+
+    .intro img {
+        width: 36vw;
+        margin-bottom: 0vh;
+        float: none;
+        padding-bottom: 1vh;
+    }
+}
+
