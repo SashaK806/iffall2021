@@ -1,0 +1,115 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to bottom, #000000 40%, #0560aa 80%, #7cd4ef 100%);
+}
+
+body {
+    padding-top: 200px;
+}
+
+.launch-button {
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%, -50%); /*account for center*/
+
+    text-decoration: none;
+    background-color: #aa0000;
+    color: white;
+    font-size: 20px;
+    padding: 15px 60px 15px 30px;
+    border-radius: 10px;
+
+    transition: transform 0.5s, background-color 0.1s, padding 0.5s, box-shadow 0.1s;
+    /*transition from one state to another; list of properties to transition with a duration*/
+}
+
+.launch-button:hover {
+    background-color: #cc0000;
+    box-shadow: 0 0 8px #ff0000;
+}
+
+.launch-button:active {
+    background-color: #750000;
+    box-shadow: 0 0 2px #750000;
+    transform: translate(-50%, -20%) scale(0.7);
+    padding: 15px 30px;
+}
+
+.launch-button .rocket {
+    position: absolute;
+    top: 50%; /*centers vertically*/
+    right: 40px;
+
+    transition: transform 0.5s;
+}
+
+.launch-button .rocket i {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.launch-button .fa-rocket {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.launch-button .fa-burn {
+    transform: translate(-50%, -15%) rotate(180deg) scale(0.1);
+    /*center horizontally, hang lower vertically, rotate and make smaller*/
+    color: orange;
+
+    transition: transform 0.4s;
+}
+
+.launch-button:hover .fa-burn {
+    transform: translate(-50%, -15%) rotate(180deg) scale(0.4);
+}
+
+.launch-button:active .fa-burn {
+    transform: translate(-50%, 25%) rotate(180deg) scale(0.8);
+}
+
+.launch-button:hover .rocket {
+    transform: scale(1.3);
+}
+
+.launch-button:active .rocket {
+    transform: rotate(-15deg) translate(60px, -140px) scale(3.5);
+}
+
+.label {
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: white;
+}
+
+.label:hover {
+    color: orange;
+    text-shadow: 0 0 3px rgb(251, 255, 0, 0, 0.5);
+}
+
+.launch-button .label {
+    transition: color 0.2s, text-shadow 0.2s;
+}
+
+@keyframes burn {
+    from { transform: rotate(-7deg); }
+    33% { transform: rotate(4deg); }
+    66% { transform: rotate(-4deg); }
+    to { transform: rotate(7deg); }
+  }
+  /*set of keyframes with the name burn. The keyframes define a series of changes to a property or set of properties*/
+  /*apply keyframes to an element - chose icon ::before pseudoclass so we don't affect actual icon's transform*/
+.launch-button:active .fa-burn::before {
+    display: block; /*needs this to animate*/
+    transform-origin: center bottom; /*apply transform around an axis at base of flame instead of center*/
+    animation-name: burn; /*which keyframes to use*/
+    animation-duration: 0.1s; /*duration of loop*/
+    animation-iteration-count: infinite; /*loop without end*/
+    animation-direction: alternate; /*keyframes alternate backwards and forwards in time*/
+}
