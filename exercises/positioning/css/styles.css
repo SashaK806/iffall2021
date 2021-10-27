@@ -1,0 +1,44 @@
+.static-example .positioned-element {
+    background-color: green;
+    left: 100px;
+    /*unaffected by positioning*/
+}
+
+.relative-example .positioned-element {
+    background-color: lightblue;
+    position: relative;
+    left: 100px;
+    top: 50px;
+    /*leaves a "hole" behind; retains document flow otherwise*/
+    z-index: -1;
+}
+
+.absolute-example .positioned-element {
+    background-color: red;
+    position: absolute;
+    top: 0; 
+    right: 0;/*in reference to ancestor*/
+    /*ignored by document flow*/
+}
+
+.absolute-example {
+    position: relative; /*setting ancestor of absolute to relative makes absolute positioned in terms of this parent*/
+}
+
+.fixed-example .positioned-element {
+    background-color: purple;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.sticky-example .positioned-element {
+    background-color: orange;
+    position: sticky;
+    top: 50px; /*fixed until hits this threshold, then relative*/
+    /*^ applies within parent section*/
+}
+
+/*z-index: positive brings towards us, negative pushes away*/
