@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Buttons — Sasha Kostenko</title>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu:700" rel="stylesheet" type="text/css">
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">
+		<style>
+			body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+			main {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+
+
+			a#btn_spotify {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #2ebd59;
+				border: 2px solid #2ebd59;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+				transition: all .5s;
+			}
+
+			a#btn_spotify:hover {
+				background-color: #fff;
+				border: 2px solid #000;
+				color: #000;
+			}
+
+			a#btn_amazon {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #232f3e;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+				transition: all .2s;
+			}
+
+			a#btn_amazon:hover {
+				background-color: #fc9a18;
+			}
+
+			a#btn_twitter {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #56cdf1;
+				color: #fff;
+				font-size: 18px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_twitter:hover {
+
+				/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+				background: rgb(46,191,236); /* Old browsers */
+				background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+			}
+
+			a#btn_indiegogo {
+				display: inline-block;
+				position: relative;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #eb1478;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -2px;
+				transition: all .2s;
+			}
+
+			a#btn_indiegogo:before {
+				content: "";
+				display: block;
+				width: 0;
+				height: 0;
+				z-index: 1;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				background-color: #eb1478;
+				transition: all .5s;
+			}
+
+			a#btn_indiegogo:hover {
+				color: #fff;
+			}
+
+			a#btn_indiegogo:hover:before {
+				width: 100%;
+				height: 100%;
+				left: 0;
+				top: 0;
+			}
+
+			a#btn_indiegogo span {
+				position: relative;
+				z-index: 10;
+			}
+
+
+		</style>
+    </head>
+    <body>	
+        <main>
+            <h1>Button Styling — Sasha Kostenko</h1>
+            <!--MY BUTTONS START HERE-->
+            <div class="button_container">
+                <a href="https://www.pottermore.com/" target="_blank" id="btn_pottermore"><span>Pottermore</span></a>
+            </div>
+            <div class="button_container">
+                <a href="http://www.explodingkittens.com/
+                " target="_blank" id="btn_explodingkittens"><span>Exploding Kittens</span></a>
+            </div>
+            <div class="button_container">
+                <a href="http://thecolorrun.com/" target="_blank" id="btn_colorrun"><span>Color Run</span></a>
+            </div>
+            <div class="button_container">
+                <a href="http://www.moo.com/us/" target="_blank" id="btn_moo"><span>moo</span></a>
+            </div>
+            <div class="button_container">
+                <a href="http://www.coca-cola.com/" target="_blank" id="btn_cocacola"><span>Coca Cola</span></a>
+            </div>
+            <div class="button_container">
+                <a href="http://www.apple.com/" target="_blank" id="btn_apple"><span>Apple</span></a>
+            </div>
+            <div class="button_container">
+                <a href="http://www.ibm.com/" target="_blank" id="btn_ibm"><span>IBM</span></a>
+            </div>
+            <div class="button_container">
+                <a href="http://nerf.hasbro.com/en-us" target="_blank" id="btn_nerf"><span>Nerf</span></a>
+            </div>
+            <div class="button_container">
+                <a href="http://www.harley-davidson.com/" target="_blank" id="btn_harleydavidson"><span>Harley Davidson</span></a>
+            </div>
+            <div class="button_container">
+                <a href="http://www.michaelkors.com/" target="_blank" id="btn_michaelkors"><span>MK</span></a>
+            </div>
+            <div class="button_container">
+                <a href="http://ideo.org" target="_blank" id="btn_ideo"><span>IDEO</span></a>
+            </div>
+            <div class="button_container">
+                <a href="http://sardellastl.com/" target="_blank" id="btn_sardella"><span>Sardella</span></a>
+            </div>
+            <div class="button_container">
+                <a href="http://www.nike.com/us/en_us/
+                " target="_blank" id="btn_nike"><span>Nike</span></a>
+            </div>
+            <div class="button_container">
+                <a href="http://www.missouribotanicalgarden.org/" target="_blank" id="btn_botanicalgarden"><span>mbg</span></a>
+            </div>
+            <div class="button_container">
+                <a href="https://www.lyft.com/" target="_blank" id="btn_lyft"><span>Lyft</span></a>
+            </div>
+            <div class="button_container">
+                <img id="star" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Five_Pointed_Star_Solid.svg/2175px-Five_Pointed_Star_Solid.svg.png">
+                <a href="http://www.dimecitycycles.com/
+                " target="_blank" id="btn_dimecitycycles"><span>Dime City Cycles</span></a>
+            </div>
+            <div class="button_container">
+                <a href="http://www.cartoonnetwork.com/" target="_blank" id="btn_cartoonnetwork"><h2 id="cartoon">Cartoon </h2><h2 id="network">Network</h2></a>
+            </div>
+            <div class="button_container">
+                <a href="http://www.bissingers.com/" target="_blank" id="btn_bissingers"><span>Bissingers</span></a>
+            </div>
+            <div class="button_container">
+                <a href="http://hulkhogan.com/" target="_blank" id="btn_hulkhogan"><span>HOGAN</span></a>
+            </div>
+            <div class="button_container">
+                <a href="http://www.teslamotors.com/" target="_blank" id="btn_tesla"><img id="white" src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Tesla_logo.png">
+                <img id="red" src="https://storage.googleapis.com/webdesignledger.pub.network/WDL/12f213e1-t1.jpg"></a>
+            </div>
+        </main>	
+    </body>
+</html>
+	
+    
+    
+
+
+	

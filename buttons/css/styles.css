@@ -1,0 +1,435 @@
+#example-style {
+    display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px 40px 0 40px;
+	background-color: #2ebd59;
+	border: 2px solid #2ebd59;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	transition: all .5s;
+}
+
+
+
+a#btn_cocacola {
+    /* height: 200px; */
+    /* box-sizing: border-box; */
+    display: inline-block;
+    border-radius: 100px;
+    margin: 50px 0 0 0;
+    padding: 70px 40px 70px 40px;
+    border: 2px solid darkred;
+    background-color: darkred;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_cocacola:hover {
+    color: darkred;
+    background-color: white;
+}
+
+a#btn_apple {
+    display:inline-block;
+    border-radius: 15px;
+    margin-top: 50px;
+    padding: 35px 35px 35px 35px;
+    background-color: black;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_apple:hover {
+    color: white;
+    font-size: 200%;
+    text-shadow: 0 0 10px white;
+}
+
+a#btn_ibm {
+    display: inline-block;
+    font-size: 200%;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_ibm:hover {
+    font-size: 400%;
+    padding-top: 150px;
+}
+
+a#btn_nerf {
+    /* display: inline-block; */
+    margin-top: 70px;
+    float: left;
+    color: red;
+    font-weight: bold;
+    font-size: 300%;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_nerf:hover {
+    font-style: italic;
+    font-size: 150%;
+    float: right;
+}
+
+a#btn_harleydavidson {
+    display: inline-block;
+    /* padding-top: 70px; */
+    
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+    background-color:black;
+    padding: 20px;
+    border-radius: 3px;
+    /* width: 100%;
+    height: 100%; */
+    color: orange;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 10px solid orange;
+    
+    
+}
+
+a#btn_harleydavidson:hover {
+    background-color: black;
+    border: 10px solid black;
+}
+
+a#btn_michaelkors {
+    display: inline-block;
+    margin-top: 70px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+    color: black;
+    border: 8px solid black;
+    border-radius: 100px;
+    padding: 10px 0 10px 0;
+    font-size: 400%;
+    
+}
+
+a#btn_michaelkors:hover {
+    transform: rotate(360deg);
+}
+
+a#btn_ideo {
+    display: inline-block;
+    margin-top: 70px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+    color: lightblue;
+    background-color: orange;
+    padding: 20px;
+    font-size: 200%;
+    border-radius: 25px;
+}
+
+a#btn_ideo:hover {
+    color: orange;
+    background-color: lightblue;
+}
+
+a#btn_sardella {
+    display: inline-block;
+    margin-top: 70px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+    font-size: 300%;
+    margin: auto;
+    padding: 30px;
+    color:lightsteelblue;
+    text-transform: lowercase;
+}
+
+a#btn_sardella:hover {
+    background-color:lightseagreen;
+    padding: 30px;
+    border-radius: 12px;
+    color: white;
+    font-style: italic;
+}
+
+a#btn_lyft {
+    display: inline-block;
+    padding-top: 200px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+    color: black;
+    font-size: 140%;
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase; 
+    color: violet;
+}
+
+a#btn_lyft:hover {
+    padding-top: 10px;
+}
+
+a#btn_dimecitycycles {
+    display: inline-block;
+    margin-top: 70px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+    color: darkred;
+    text-transform: uppercase;
+    font-size: 200%;
+    z-index: 10;
+    font-weight: 999;
+}
+
+#star {
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+}
+
+a#btn_dimecitycycles:hover {
+}
+
+#star:hover {
+    position:fixed;
+    visibility:hidden;
+}
+
+a#btn_cartoonnetwork {
+    display: inline-block;
+    /* margin-top: 50px; */
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+    font-size: 150%;
+    margin-left: 0;
+    color: violet;
+    text-shadow: violet 0 0 5px;
+}   
+
+#cartoon, #network {
+    margin: 0;
+}
+
+#cartoon:hover {
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 180%;
+    color: yellow;
+}
+
+#network:hover {
+    text-align: right;
+    margin-right: 0;
+    padding-right: 0;
+    font-size: 180%;
+    color: yellow;
+}
+
+a#btn_cartoonnetwork:hover {
+    padding: 20px;
+    border-radius: 30px;
+    background-color:violet;
+    color: white;
+}
+
+a#btn_bissingers {
+    display: inline-block;
+    margin-top: 70px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 2s;
+    letter-spacing: 0.2rem;
+    color: black;
+    font-size: 120%;
+}
+
+a#btn_bissingers:hover {
+    letter-spacing: 1rem;
+    padding: 14px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+a#btn_nike {
+    display: inline-block;
+    margin-top: 70px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+    font-style: italic;
+    font-size: 400%;
+    color: orangered;
+}
+
+a#btn_nike:hover {
+    text-shadow: black 2px 6px 0;
+}
+
+a#btn_botanicalgarden {
+    display: inline-block;
+    margin-top: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 100%;
+    padding: 70px 60px 70px 60px;
+    border-radius: 40px;
+    border: 2px dashed black;
+    color: black;
+}   
+
+a#btn_botanicalgarden:hover {
+    background-image: url("https://www.missouribotanicalgarden.org/Portals/0/Images/MBGhome/Homepage2020/2020_Fall_Dahlia.jpg");
+    color: white;
+    background-size: cover;
+    text-shadow: white 2px 0 10px;
+    border: 2px none black;
+}
+
+a#btn_hulkhogan {
+    display: inline-block;
+    margin-top: 70px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .1s;
+    font-size: 400%;
+    letter-spacing: -10px;
+    background-color: black;
+    color: yellow;
+    padding: 1px 15px 1px 5px;
+    border-radius: 3px;
+}
+
+a#btn_hulkhogan:hover {
+    letter-spacing: -8px;
+}
+
+a#btn_tesla #white {
+    /* display: inline-block; */
+    /* margin-top: 70px; */
+    /* font-weight: bold;
+    text-decoration: none; */
+    /* transition: all .5s; */
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    opacity: 1;
+}
+
+a#btn_tesla #red {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    /* position: fixed; */
+}
+
+a#btn_tesla #red:hover {
+    opacity: 1;
+    margin-top: 0;
+}
+
+a#btn_tesla #white:hover {
+    /* opacity: 0; */
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+a#btn_colorrun {
+    display: inline-block;
+    margin-top: 70px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+    padding: 50px;
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+}
+
+/*GRADIENT on hover*/
+
+a#btn_colorrun:hover {
+    background: rgb(80,80,245);
+    background: linear-gradient(0deg, rgba(80,80,245,1) 0%, rgba(98,226,240,1) 100%);
+    
+    /*source for gradient: https://cssgradient.io/*/
+}
+
+a#btn_moo {
+    /* display: block; */
+    margin-top: 70px;
+    font-weight: 100;
+    text-decoration: none;
+    transition: all 0.8s;
+    font-size: 700%;
+    color: black;
+    padding-bottom: 20px;
+    background-color: salmon;
+    text-shadow: white -1px 10px 0;
+
+}
+
+a#btn_moo:hover {
+    background-color: black;
+    color: white;
+    text-shadow: salmon 1px -10px 0;
+}
+
+a#btn_pottermore {
+    display: inline-block;
+    margin-top: 70px;
+    font-weight: 300;
+    text-decoration: none;
+    transition: all 0.6s;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    border-radius: 5px;
+    font-size: 200%;
+    text-shadow: white -240px 0 5px;
+}
+
+a#btn_pottermore:hover {
+    text-shadow: white 240px 0 5px;
+}
+
+a#btn_explodingkittens {
+    display: inline-block;
+    margin-top: 70px;
+    font-weight: 50;
+    text-decoration: none;
+    transition: all 2s;
+    border: 1px solid black;
+    color: black;
+    padding: 20px;
+}
+
+a#btn_explodingkittens:hover {
+    background-color: black;
+    color: orangered;
+    font-weight: 999;
+    font-size: 145%;
+    text-shadow: yellow 0.5px 3px 0;
+}
