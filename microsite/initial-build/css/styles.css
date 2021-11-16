@@ -1,0 +1,71 @@
+html {
+    background-color:rgb(12, 12, 12);
+    color: white;
+    font-size: 125%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: rgb(55, 18, 5);
+}
+
+.nav ul {
+    margin: 0;
+    padding: 10px;
+    list-style-type:none;
+    display: flex;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.nav li {
+    padding: 0 2rem 0 2rem;
+    font-size: 200%;
+}
+
+.intro {
+    padding: 50px;
+}
+
+.intro h1 {
+    visibility: hidden;
+}
+
+.intro img {
+    width: 100%;
+}
+
+#para1 {
+    padding: 50px;
+    margin-bottom: 350px;
+}
+
+#para2 {
+    float: clear;
+    padding: 120px;
+    margin-bottom: 50px;
+}
+
+#para1 img {
+    padding: 15px;
+    width: 20%;
+    float: right;
+}
+
+#para2 img {
+    padding: 15px;
+    width: 40%;
+    float: left;
+}
+
+footer {
+    background-color: rgb(55, 18, 5);
+}
+
+.segment {
+    background-color: rgb(150, 70, 50);
+}
+
