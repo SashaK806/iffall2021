@@ -1,0 +1,148 @@
+html {
+    background-color:rgb(12, 12, 12);
+    color: white;
+    font-size: 125%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: rgb(55, 18, 5);
+    width: 100%;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 10px;
+    list-style-type:none;
+    display: flex;
+    font-family:'Courier New', Courier, monospace;
+}
+
+/*when becomes 800px, display grid*/
+@media (max-width: 800px) {
+    .nav ul {
+        display: grid;
+    }
+
+    p {
+        font-size: 80%;
+    }
+}
+
+.nav li {
+    padding: 0 2rem 0 2rem;
+    font-size: 200%;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover {
+    text-shadow: 0 1px 10px white;
+}
+
+.nav a:focus {
+    /*insert play button before here*/
+}
+
+#cast-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+#cast-list li {
+    width: 20%;
+    list-style: none;
+    padding-bottom: 100px;
+}
+
+#cast-list img {
+    width: 80%;
+    height: 60%;
+    object-fit: cover;
+}
+
+#soundtrack-list ul {
+    padding-top: 30px;
+    padding-left: 120px;
+    padding-top: 120px;
+}
+
+#soundtrack-list li {
+    list-style: none;
+    line-height: 1pt;
+    padding-bottom: 20px;
+}
+
+#soundtrack-list a {
+    text-decoration: none;
+    color: white;
+}
+
+#soundtrack-list a:hover {
+    text-shadow: 0 1px 10px white;
+}
+
+@media (max-width: 800px) {
+    .cast-list ul {
+        font-size: 50%;
+        display: grid;
+        padding-left: 20px;
+    }
+}
+
+h3, h4 {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 100;
+}
+
+.intro {
+    padding: 50px;
+}
+
+.intro h1 {
+    visibility: hidden;
+}
+
+.intro img {
+    width: 100%;
+}
+
+#para1 {
+    padding: 120px;
+    margin-bottom: 350px;
+}
+
+#para2 {
+    float: clear;
+    padding: 120px;
+    margin-bottom: 50px;
+}
+
+#para1 img {
+    padding: 15px;
+    height: 40vh;
+    float: right;
+}
+
+#para2 img {
+    padding: 15px;
+    height: 40vh;
+    float: left;
+}
+
+footer {
+    background-color: rgb(55, 18, 5);
+}
+
+.segment {
+    background-color: rgb(150, 70, 50);
+}
+
