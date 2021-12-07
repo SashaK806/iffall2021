@@ -138,6 +138,13 @@ h3, h4 {
     float: left;
 }
 
+@media (max-width: 800px) {
+    #para2 img, #para1 img {
+        padding: 0;
+        float: none;
+    }
+}
+
 footer {
     background-color: rgb(55, 18, 5);
 }

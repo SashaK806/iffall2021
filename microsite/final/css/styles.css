@@ -1,0 +1,211 @@
+html {
+    background-color:rgb(12, 12, 12);
+    color: white;
+    font-size: 125%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: rgb(55, 18, 5);
+    width: 100%;
+}
+
+.nav ul {
+    margin: 0;
+    font-size: 1.5vw;
+    padding: 1em 0 1em 0;
+    list-style-type: none;
+    display: flex;
+    font-family:'Courier New', Courier, monospace;
+}
+
+/*when becomes 800px, display grid*/
+@media (max-width: 1100px) {
+    .nav ul {
+        /* display: grid; */
+        font-size: 1.2vw;
+    }
+
+    p {
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 800px) {
+    .nav ul {
+        font-size: 100%;
+        display: grid;
+    }
+}
+
+.nav li {
+    padding: 0 2rem 0 2rem;
+    font-size: 200%;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.fa-play {
+    padding-right: 10px;
+    /* width: 70%; */
+}
+
+.nav a:hover {
+    text-shadow: 0 1px 10px white;
+    /* color: transparent; */
+    background-image: url("https://i.gifer.com/D5XM.gif");
+    border-radius: 100px;
+}
+
+.selected {
+    text-shadow: 0 1px 10px white;
+    /* background-image: url("https://i.gifer.com/D5XM.gif"); */
+    border-radius: 100px;
+}
+
+h3, h4 {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 100;
+}
+
+#cast-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 60px;
+}
+
+#cast-list li {
+    width: 20%;
+    list-style: none;
+    /* padding-bottom: 100px; */
+    text-align: center;
+    /* margin: 0; */
+}
+
+#cast-list h3, h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#cast-list h4 {
+    font-style: italic;
+}
+
+#cast-list img {
+    width: 80%;
+    height: 60%;
+    object-fit: cover;
+}
+
+#soundtrack-list ul {
+    padding-top: 30px;
+    padding-left: 120px;
+    padding-top: 120px;
+}
+
+#soundtrack-list li {
+    list-style: none;
+    /* line-height: 1pt; */
+    padding-bottom: 20px;
+    font-style: italic;
+}
+
+#soundtrack-list a {
+    text-decoration: none;
+    color: white;
+    font-style:normal;
+    font-size: 130%;
+}
+
+#soundtrack-list a:hover {
+    text-shadow: 0 1px 10px white;
+    background-image: url("https://i.gifer.com/D5XM.gif");
+
+}
+
+@media (max-width: 1000px) {
+    #cast-list ul {
+        padding: 40px;
+    }
+
+    #cast-list li {
+        font-size: 80%;
+        width: 30%;
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 640px) {
+    #cast-list li {
+        width: 45%;
+    }
+}
+
+.intro {
+    padding: 50px;
+    margin-bottom: 100px;
+}
+
+.intro h1 {
+    visibility: hidden;
+}
+
+.intro img {
+    width: 100%;
+}
+
+#para1 {
+    padding: 120px;
+    margin-bottom: 150px;
+}
+
+#para2 {
+    float: clear;
+    padding: 120px;
+    margin-bottom: 50px;
+}
+
+#para1 img {
+    padding: 15px 0 30px 30px;
+    height: 40vh;
+    float: right;
+}
+
+#para2 img {
+    padding: 15px 30px 30px 0;
+    height: 40vh;
+    float: left;
+}
+
+@media (max-width: 850px) {
+    #para2 img, #para1 img {
+        padding: 0;
+        float: none;
+        width: 60vw;
+        height: auto;
+    }
+}
+
+footer {
+    background-color: rgb(55, 18, 5);
+    font-size: 70%;
+    color: rgb(150, 70, 50);
+    padding: 25px;
+}
+
+footer span {
+    padding-left: 25px;
+}
+
+.segment {
+    background-color: rgb(150, 70, 50);
+}
+
