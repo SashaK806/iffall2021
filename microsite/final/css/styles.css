@@ -165,12 +165,16 @@ h3, h4 {
 #para1 {
     padding: 120px;
     margin-bottom: 150px;
+    font-size: 80%;
+    line-height:20pt;
 }
 
 #para2 {
     float: clear;
     padding: 120px;
     margin-bottom: 50px;
+    font-size: 80%;
+    line-height:20pt;
 }
 
 #para1 img {
