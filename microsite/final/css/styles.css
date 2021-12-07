@@ -205,6 +205,15 @@ footer span {
     padding-left: 25px;
 }
 
+footer a {
+    text-decoration: none;
+    color: rgb(150, 70, 50);
+}
+
+footer a:hover {
+    color: white;
+}
+
 .segment {
     background-color: rgb(150, 70, 50);
 }
